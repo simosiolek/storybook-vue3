@@ -1,0 +1,43 @@
+import Avatar from './Avatar.vue';
+import { fireEvent, screen, userEvent } from '@storybook/testing-library';
+
+export default {
+  title: 'Atoms/Avatar',
+  component: Avatar,
+  argTypes: {
+    size: {
+      control: { type: 'select' },
+      options: ['small', 'regular'],
+    },
+  },
+};
+
+const Template = (args) => ({
+  components: { Avatar },
+  setup() {
+    return { args };
+  },
+  template: '<Avatar v-bind="args" />',
+});
+
+export const Default = Template.bind({});
+Default.args = {
+};
+
+export const Alternative = Template.bind({});
+Alternative.args = {
+  alt: true,
+  label: 'SM'
+};
+
+export const Small = Template.bind({});
+Small.args = {
+  label: 'JRR',
+  size: 'small'
+};
+
+export const ClickExample = Template.bind({});
+ClickExample.play = async () => {
+  // The play function interacts with the component and looks for the text
+  await screen.findByText('AA');
+};

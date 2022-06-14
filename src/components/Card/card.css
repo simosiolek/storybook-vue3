@@ -1,0 +1,12 @@
+.card {
+  width: 10rem;
+  height: 15rem;
+  box-shadow: 0 3px 7px #ccc;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.card--border {
+  border: 3px solid forestgreen;
+}

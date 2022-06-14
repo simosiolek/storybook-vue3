@@ -1,0 +1,25 @@
+.avatar {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  border: 2px;
+  border-radius: 30em;
+  width: 5em;
+  height: 5rem;
+  background-color: firebrick;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar--alt {
+    background-color: khaki;
+    color: #161616;
+}
+
+.avatar--small {
+  font-size: 0.75rem;
+  width: 3.5rem;
+  height: 3.5rem;
+}
