@@ -8,7 +8,8 @@ module.exports = {
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
     '@whitespace/storybook-addon-html',
-    '@storybook/addon-a11y'
+    '@storybook/addon-a11y',
+    'storybook-addon-designs'
   ],
   "framework": "@storybook/vue3",
   "core": {
