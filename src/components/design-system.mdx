@@ -1,0 +1,40 @@
+
+# Key element of Design System for developers
+🏗 Common reusable UI components
+🎨 Design tokens: Styling-specific variables such as brand colors and spacing
+📕 Documentation site: Usage instructions, narrative, do’s and don'ts
+
+BUILD ---> REVIEW ---> TEST ---> DOCUMENT ---> DEPLOY
+<--------------------------------------------------
+
+
+The parts are packaged up, versioned, and distributed to consumer apps via a package manager.
+
+Storybook to build UI components in isolation
+
+DS Common components + tokens
+  |---- LIB HE components and theme + tokens
+  |---- LIB Engage components and theme + (tokens
+  |---- LIB Core componets and theme + tokens
+
+
+Create Inventory of components - gather common used componets/patters visuals
+- If a UI pattern is used more than three times, turn it into a reusable UI component.
+- If a UI component is used in 3 or more projects/teams, put it in your design system.
+
+
+STORYBOOK
+ |--- Sourcecode - HTML + Vue3 (need workaround to generate Vue3 code)
+ |--- Controls - controls table with set all props to manipulate
+ |--- Actions
+ |--- Accessibility
+ |--- Figma Design - component need its own artboard
+ |--- MDX documantation format
+
+ FRAMEWORK
+ |--- Vue3 - Composition api with <script setup>
+ |--- ESLint
+ |--- Prietter
+
+ (!) Add global CSS style reset to Storybook global
+ (!) Add global font-family
