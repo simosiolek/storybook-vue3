@@ -1,3 +1,4 @@
+@import url(./../../tokens/css/_variables.css);
 .avatar {
   font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1rem;
@@ -6,7 +7,7 @@
   border-radius: 30em;
   width: 5em;
   height: 5rem;
-  background-color: teal;
+  background-color: var(--cup-global-color-primary-primary);
   color: white;
   display: flex;
   justify-content: center;

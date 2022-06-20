@@ -1,0 +1,23 @@
+{
+  "source": ["src/tokens/*.json"],
+  "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "src/tokens/",
+      "prefix": "cup",
+      "files": [{
+        "destination": "css/_variables.css",
+        "format": "css/variables"
+      }]
+    },
+    "scss": {
+      "transformGroup": "scss",
+      "buildPath": "src/tokens/",
+      "prefix": "cup",
+      "files": [{
+        "destination": "scss/_variables.scss",
+        "format": "scss/variables"
+      }]
+    }
+  }
+}
