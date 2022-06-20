@@ -33,6 +33,12 @@ Primary.args = {
   primary: true,
   label: 'Button',
 };
+Primary.parameters = {
+  design: {
+    type: 'figma',
+    url: 'https://www.figma.com/file/q6vhXBN4rJvq9CaaTaOv4n/HE-Design-System-POC?node-id=19%3A4187',
+  },
+};
 
 export const Secondary = Template.bind({});
 Secondary.args = {
