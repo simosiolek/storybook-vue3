@@ -1,10 +1,10 @@
 /**
  * Do not edit directly
- * Generated on Mon, 20 Jun 2022 15:25:18 GMT
+ * Generated on Tue, 21 Jun 2022 11:13:29 GMT
  */
 
 :root {
-  --cup-global-color-primary-primary: #ffb800;
+  --cup-global-color-primary-primary: #000000;
   --cup-global-color-primary-dark: #1b2a3f;
   --cup-global-color-primary-light: #67768c;
   --cup-global-color-secondary-secondary: #7f091d;
@@ -16,4 +16,5 @@
   --cup-global-regular: 8px;
   --cup-global-large: 16px;
   --cup-global-noto: [object Object];
+  --cup-dark-color-primary: #c90211;
 }
