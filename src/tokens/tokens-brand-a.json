@@ -3,7 +3,7 @@
     "Color": {
       "Primary": {
         "Primary": {
-          "value": "#000000",
+          "value": "#6dc703",
           "type": "color"
         },
         "Dark": {
@@ -59,20 +59,6 @@
         "fontSize": "1rem"
       },
       "type": "typography"
-    }
-  },
-  "dark": {
-    "test": {
-      "value": "{Color.Secondary.Secondary}",
-      "type": "color"
-    }
-  },
-  "theme.he": {
-    "primary": {
-      "500": {
-        "value": "#07b0a2",
-        "type": "color"
-      }
     }
   },
   "$themes": []
