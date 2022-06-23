@@ -1,0 +1,79 @@
+{
+  "global": {
+    "Color": {
+      "Primary": {
+        "Primary": {
+          "value": "#000000",
+          "type": "color"
+        },
+        "Dark": {
+          "value": "#1b2a3f",
+          "type": "color"
+        },
+        "Light": {
+          "value": "#67768c",
+          "type": "color"
+        }
+      },
+      "Secondary": {
+        "Secondary": {
+          "value": "#0280d1",
+          "type": "color"
+        },
+        "Dark": {
+          "value": "#580614",
+          "type": "color"
+        },
+        "Light": {
+          "value": "#a55260",
+          "type": "color"
+        }
+      }
+    },
+    "Greyscale": {
+      "Black": {
+        "value": "#212529",
+        "type": "color"
+      },
+      "White": {
+        "value": "#ffffff",
+        "type": "color"
+      }
+    },
+    "small": {
+      "value": "4px",
+      "type": "sizing"
+    },
+    "regular": {
+      "value": "8px",
+      "type": "sizing"
+    },
+    "large": {
+      "value": "16px",
+      "type": "sizing"
+    },
+    "noto": {
+      "value": {
+        "fontFamily": "noto",
+        "fontWeight": "400",
+        "fontSize": "1rem"
+      },
+      "type": "typography"
+    }
+  },
+  "dark": {
+    "test": {
+      "value": "{Color.Secondary.Secondary}",
+      "type": "color"
+    }
+  },
+  "theme.he": {
+    "primary": {
+      "500": {
+        "value": "#07b0a2",
+        "type": "color"
+      }
+    }
+  },
+  "$themes": []
+}
